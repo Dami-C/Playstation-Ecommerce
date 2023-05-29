@@ -1,0 +1,23 @@
+[
+    {"idx":1, "titulo":"PlayStation 5 DualShock", "descripcion":"Consola física con lectora 500Gb", "imagen":"../images/Playstation-5-Dualshock.png", "precio":500000, "categoria":"consolas", "stock":10},
+    {"idx":2, "titulo":"Playstation 5 Digital God of War", "descripcion":"Consola digital 500Gb", "imagen":"../images/digitalgodofwar.png", "precio":350000, "categoria":"consolas", "stock":10},
+    {"idx":3, "titulo":"Playstation 5 DualShock God of War", "descripcion":"Consola física con lectora 1Tb", "imagen":"../images/standargodofwar.png", "precio":650000, "categoria":"consolas", "stock":10},
+    {"idx":4, "titulo":"Playstation Vr2 Sense", "descripcion":"Casco de Realidad Virtual", "imagen":"../images/playstationVr2.png", "precio":600000, "categoria":"consolas", "stock":10},
+    {"idx":5, "titulo":"Control Dual Sense - Blanco", "descripcion":"Joystick PS5", "imagen":"../images/controlDualSense.png", "precio":25000, "categoria":"accesorios", "stock":10},
+    {"idx":6, "titulo":"Control Dual Sense - Negro", "descripcion":"Joystick PS5", "imagen":"../images/joystickNegro.png", "precio":25000, "categoria":"accesorios", "stock":10},
+    {"idx":7, "titulo":"Control Dual Sense - Celeste", "descripcion":"Joystick PS5", "imagen":"../images/joystickCeleste.png", "precio":25000, "categoria":"accesorios", "stock":10},
+    {"idx":8, "titulo":"Control Dual Sense - Rosa", "descripcion":"Joystick PS5", "imagen":"../images/joystickRosa.png", "precio":25000, "categoria":"accesorios", "stock":10},
+    {"idx":9, "titulo":"Control Dual Sense - Violeta", "descripcion":"Joystick PS5", "imagen":"../images/joystickVioleta.png", "precio":25000, "categoria":"accesorios", "stock":10},
+    {"idx":10, "titulo":"Control Dual Sense - Bordó", "descripcion":"Joystick PS5", "imagen":"../images/joystickBordo.png", "precio":25000, "categoria":"accesorios", "stock":10},
+    {"idx":11, "titulo":"Control Pro Dual Sense", "descripcion":"Joystick Pro PS5", "imagen":"https://http2.mlstatic.com/D_NQ_NP_625691-MLA53443733381_012023-O.webp", "precio":50000, "categoria":"accesorios", "stock":10},
+    {"idx":12, "titulo":"Gorra - Control", "descripcion":"Gorra de diseño", "imagen":"../images/gorra1.png", "precio":10000, "categoria":"indumentaria", "stock":10},
+    {"idx":13, "titulo":"Gorra - Teclas", "descripcion":"Gorra de diseño", "imagen":"../images/gorra2.png", "precio":10000, "categoria":"indumentaria", "stock":10},
+    {"idx":14, "titulo":"Gorra - Negra", "descripcion":"Gorra de diseño", "imagen":"../images/gorra3.png", "precio":10000, "categoria":"indumentaria", "stock":10},
+    {"idx":15, "titulo":"Gorra - Azul", "descripcion":"Gorra de diseño", "imagen":"../images/gorra4.png", "precio":10000, "categoria":"indumentaria", "stock":10},
+    {"idx":16, "titulo":"Gorra - Blanca", "descripcion":"Gorra de diseño", "imagen":"../images/gorra5.png", "precio":10000, "categoria":"indumentaria", "stock":10},
+    {"idx":17, "titulo":"Remera - Logo Blanco", "descripcion":"Remera de diseño", "imagen":"../images/Remera-Logo-Playstation-Negra-46--1000x1000-.png", "precio":15000, "categoria":"indumentaria", "stock":10},
+    {"idx":18, "titulo":"Remera - Logo chico", "descripcion":"Remera de diseño", "imagen":"../images/Remera-PS-Color-Japon-Negro.png", "precio":15000, "categoria":"indumentaria", "stock":10},
+    {"idx":19, "titulo":"Remera - Logo grande", "descripcion":"Remera de diseño", "imagen":"../images/Remera-PS-Color-Negro-B08--1000x1000-.png", "precio":15000, "categoria":"indumentaria", "stock":10},
+    {"idx":20, "titulo":"Remera - Playstation", "descripcion":"Remera de diseño", "imagen":"../images/Remera-Playstation-Negra-45--1000x1000-.png", "precio":15000, "categoria":"indumentaria", "stock":10},
+    {"idx":21, "titulo":"Remera - Bolsillo", "descripcion":"Remera de diseño", "imagen":"../images/Remera-PS-Joystick-Negra-02-Frente.png", "precio":15000, "categoria":"indumentaria", "stock":10}
+]
