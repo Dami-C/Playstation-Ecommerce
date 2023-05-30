@@ -30,8 +30,6 @@ const Header = () => {
           
         </div>  
 
-        <ItemListContainer greeting={'Bienvenidos'}/>
-
     </div>
   )
 }
