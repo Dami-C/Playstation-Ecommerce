@@ -6,7 +6,7 @@ import ItemList from "../ItemList/ItemList";
 const ItemListContainer = () => {
     const [items, setItems] = useState([]);
     const {id} = useParams();
- 
+
     useEffect(() => {
         const promesa = new Promise((resolve) => {
             setTimeout(() => {
