@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import productos from "../asyncMock.json";
+// import productos from "../asyncMock.json";
 import ItemList from "../ItemList/ItemList";
-import { getFirestore, collection, getDocs, where, query, addDoc } from "firebase/firestore"
+import { getFirestore, collection, getDocs, where, query } from "firebase/firestore"
+import Loading from "../Loading/Loading";
 
 const ItemListContainer = () => {
     const [items, setItems] = useState([]);
+    const [loading, setLoading] = useState(true);
     const {id} = useParams();
 
     //Proceso de importacion 
@@ -41,6 +43,7 @@ const ItemListContainer = () => {
             getDocs(q).then(resultado => {
                 if (resultado.size > 0) {
                     setItems(resultado.docs.map(producto => ({id:producto.id, ...producto.data()})));
+                    setLoading(false);
                 } else {
                     console.error("Error! No se encontraron productos en la colección!");
                 }
@@ -50,7 +53,7 @@ const ItemListContainer = () => {
     return (
         <div className="container my-5">
             <div className="row">
-                <ItemList productos={items} />
+            { loading ? <Loading /> : <ItemList productos={items} />}
             </div>
         </div>
     )
