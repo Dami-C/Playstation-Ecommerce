@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 import trash from "../images/trash.svg";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
     const {Cart, removeItem, clear, cartTotal, sumTotal} = useContext(CartContext);
@@ -11,6 +12,7 @@ const Cart = () => {
                 <div className="row">
                     <div className="col text-center">
                         <div className="alert alert-danger" role="alert">No se encontraron productos en el Carrito!</div>
+                        <Link to={"../"}><button className="btn btn-primary"> Volver al Home </button></Link>
                     </div>
                 </div>
             </div>
@@ -46,7 +48,8 @@ const Cart = () => {
                             <tr>
                                 <td colSpan={3} className="text-end">Total a Pagar</td>
                                 <td className="text-center">${sumTotal()}</td>
-                                <td>&nbsp;</td>
+                                <td className="align-middle text-end"><Link to={"../Checkout"} className="btn btn-primary">Finalizar Compra</Link></td>
+                                
                             </tr>
                         </tbody>
                     </table>

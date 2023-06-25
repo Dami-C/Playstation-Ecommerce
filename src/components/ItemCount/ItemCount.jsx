@@ -24,18 +24,9 @@ const ItemCount = ({stock, onAdd}) => {
             setItems(1);
             setItemAdded(true);
             onAdd(items);
-            console.log("Seleccionaste: " + items + " Productos al Carrito!\nTe quedan: " + itemStock + " Productos disponibles!");
+            
         }
     }
-
-    // const onAdd = () => {
-    //     if (items <= itemStock) {
-    //         setItemStock(itemStock - items);
-    //         setItems(1);
-    //         setItemAdded(true)
-    //         console.log("Seleccionaste: " + items + " Productos al Carrito!\nTe quedan: " + itemStock + " Productos disponibles!");
-    //     }
-    // }
 
     useEffect(() => {
         setItemStock(stock);
@@ -54,7 +45,7 @@ const ItemCount = ({stock, onAdd}) => {
             </div>
             <div className="row">
                 <div className="col">
-                    {itemAdded ? <Link className="btn btn-light" to={"/Cart"}>Finalizar Compra</Link> : <button type="button" className="btn btn-light" onClick={addToCart}>Agregar al Carrito</button> }
+                    {itemAdded ? <Link className="btn btn-primary" to={"../Cart"}>Finalizar Compra</Link> : <button type="button" className="btn btn-primary" onClick={addToCart}>Agregar al Carrito</button> }
                 </div>
             </div>
         </div>        

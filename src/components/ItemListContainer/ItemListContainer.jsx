@@ -10,30 +10,6 @@ const ItemListContainer = () => {
     const [loading, setLoading] = useState(true);
     const {id} = useParams();
 
-    //Proceso de importacion 
-    // useEffect(() => {
-    //     const db = getFirestore();
-    //     const itemsCollection = collection(db, "items");
-
-    //     productos.forEach(producto => {
-    //         addDoc(itemsCollection, producto);
-    //     });
-
-    //     console.log("Productos cargados desde Firestore!");
-
-    // },[]);
-
-    // useEffect(() => {
-    //     const promesa = new Promise((resolve) => {
-    //         setTimeout(() => {
-    //             resolve(id ? productos.filter(item => item.categoria === id) : productos);
-    //         }, 1000);
-    //     });
-
-    //     promesa.then(data => {
-    //         setItems(data);
-    //     });
-    // }, [id]);
 
     // Acceder a una coleccion de documentos desde Firestore
         useEffect(() => {
